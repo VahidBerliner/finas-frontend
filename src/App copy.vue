@@ -3,14 +3,15 @@
     <NavigationDrawer />
     <ToolbarComponent />
     
-    <!-- Main content of the app -->
+    <!-- The router-view will render the component for the current route -->
     <v-main>
       <v-container>
-        <!-- Logo section remains for branding or other purposes -->
+        <!-- Logo and Form section only appear on the default route -->
         <LogoComponent />
+        <FormComponent />
         
-        <!-- The router-view renders the active route component -->
-        <router-view></router-view> <!-- This renders the component mapped in your routes -->
+        <!-- The AboutPage content will be displayed when the '/about' route is active -->
+        <router-view></router-view>  <!-- This is where the AboutPage or other route components will render -->
       </v-container>
     </v-main>
     
@@ -25,6 +26,7 @@
 <script>
 import NavigationDrawer from './components/common/NavigationDrawer.vue';
 import ToolbarComponent from './components/common/ToolbarComponent.vue';
+import FormComponent from './components/FormComponent.vue';
 import FloatingButton from './components/common/FloatingButton.vue';
 import FooterComponent from './components/common/FooterComponent.vue';
 import LogoComponent from './components/common/LogoComponent.vue';
@@ -33,6 +35,7 @@ export default {
   components: {
     NavigationDrawer,
     ToolbarComponent,
+    FormComponent,
     FloatingButton,
     FooterComponent,
     LogoComponent,
