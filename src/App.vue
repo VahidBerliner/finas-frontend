@@ -46,5 +46,5 @@ export default {
 </script>
 
 <style scoped>
-/* Global Styles can go here */
+
 </style>

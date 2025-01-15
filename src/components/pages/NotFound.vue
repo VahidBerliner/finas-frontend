@@ -3,9 +3,11 @@
     <v-row justify="center" align="center">
       <v-col cols="12" md="6" class="text-center">
         <v-img src="https://via.placeholder.com/400" alt="404 Image" class="mb-4" />
-        <h1>Oops! Page Not Found</h1>
-        <p>Sorry, the page you are looking for doesn’t exist or has been moved. But don't worry, you can easily get back to where you need to go!</p>
-        <v-btn color="primary" @click="goToHomePage">Back to Home</v-btn>
+        <h1>Ups! Seite nicht gefunden</h1>
+        <br><br>
+        <p>Entschuldigung, die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Aber keine Sorge, Sie können ganz einfach dorthin zurückkehren, wo Sie hin müssen!</p>
+        <br><br><br>
+        <v-btn color="primary" @click="goToHomePage">Zurück zur Startseite</v-btn>
       </v-col>
     </v-row>
   </v-container>

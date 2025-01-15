@@ -1,13 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-// Correctly referencing your component files
 import HomePage from "../components/pages/HomePage.vue";
 import KundenInfo from "../components/pages/KundenInfo.vue";
 import KundenSuchen from "../components/pages/KundenSuchen.vue";
 import KundeBearbeiten from "../components/pages/KundeBearbeiten.vue";
 import KundenHinzufuegen from "../components/pages/KundenHinzufuegen.vue";
 import KundenLoeschen from "../components/pages/KundenLoeschen.vue";
-import NotFoundPage from "../components/pages/NotFound.vue"; // Ensure the NotFound.vue file exists
+import NotFoundPage from "../components/pages/NotFound.vue";
 
 const routes = [
   {

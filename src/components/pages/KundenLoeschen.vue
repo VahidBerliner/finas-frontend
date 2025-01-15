@@ -249,7 +249,6 @@ export default {
 .deep-purple-accent-4-background {
   background-color: #6A0DAD; /* Deep purple accent-4 background color */
   color: white; /* White text color */
-  border-radius: 12px; /* Rounded corners (if needed) */
-  padding: 16px; /* Padding if required */
+  border-radius: 12px; 
 }
 </style>
